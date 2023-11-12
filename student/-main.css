@@ -1,0 +1,92 @@
+header {
+    background: #1ab7ea;
+    height: 70px;
+    position: fixed;
+    inset: 0 0 auto 0;
+    display: flex;
+    justify-content: center;
+} header .restriction {
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 30px;
+    font-size: 20px;
+    font-weight: 600;
+} .material-symbols-outlined {
+    position: relative;
+    top: 5px;
+} #editButton {
+    background: transparent;
+    outline: none;
+    border: none;
+} .points{
+    display: flex;
+    align-items: center;
+}
+.points .material-symbols-outlined {
+    margin-left: 10px;
+    border: solid 2px black;
+    padding: 2px;
+    border-radius: 3px;
+    transition: .3s color;
+    cursor: pointer;
+} .points .material-symbols-outlined:hover {
+    border: solid 2px white;
+    color: white;
+} .points form.logout button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+main {
+    margin-top: 70px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} main .welcomeHeadin {
+    font-size: 33px;
+    text-align: center;
+    margin-top: 20px;
+} main .buttonsForSections {
+    margin-top: 10px;
+    width: 750px;
+    background: #1da1f2;
+    border-radius: 11px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} main .buttonsForSections a {
+    padding-block: 12px;
+    width: 50%;
+    text-align: center;
+    color: white;
+    transition: .3s color;
+    text-decoration: none;
+} main .buttonsForSections a:hover {
+    color: black;
+    background: #1ab7ea;
+    border-radius: 11px;
+} .grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+    place-items: center;
+}
+
+.grid-item {
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    border-radius: 3px;
+    font-weight: 500;
+    background: rgb(235, 213, 213);
+} .grid-item:hover {
+    background: black;
+    color: white;
+}

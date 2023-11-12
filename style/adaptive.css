@@ -1,0 +1,102 @@
+@media only screen and (max-width: 1024px) {
+    .timer {
+        column-gap: 75px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .timer {
+        column-gap: 23px;
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    .number{
+        font-size: 45px;
+    }
+    .timerText{
+        font-size: 22px;
+        margin-top: -45px;
+    }
+    .h1{
+        font-size: 35px;
+    }
+    .text{
+        margin-top: 25px;
+    }
+    .smallText{
+        font-size: 28px;
+    }
+    .first{
+        margin-top: 25px;
+    }
+    .third{
+        margin-top: 35px;
+    }
+    .dayX{
+        padding: 25px;
+        font-size: 36px;
+        font-weight: 600;
+      }
+}
+@media only screen and (max-width: 425px) {
+    .timer {
+        column-gap: 15px;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    .number{
+        font-size: 35px;
+    }
+    .timerText{
+        font-size: 15px;
+        margin-top: -55px;
+    }
+    .h1{
+        font-size: 28px;
+    }
+    .text{
+        margin-top: 25px;
+    }
+    .smallText{
+        font-size: 21px;
+    }
+    .first{
+        margin-top: 25px;
+    }
+    .third{
+        margin-top: 35px;
+    }
+    .dayX{
+        padding: 15px;
+        font-size: 30px;
+        font-weight: 600;
+      }
+}
+@media only screen and (max-width: 320px) {
+    .timer {
+        column-gap: 5px;
+    }
+    .number{
+        height: auto;
+        font-size: 25px;
+    }
+    .timerText{
+        font-size: 10px;
+        margin-top: -65px;
+    }
+    .h1{
+        font-size: 20px;
+    }
+    .text{
+        margin-top: 25px;
+    }
+    .smallText{
+        font-size: 15px;
+    }
+    .first{
+        margin-top: 15px;
+    }
+    .third{
+        margin-top: 20px;
+    }
+}

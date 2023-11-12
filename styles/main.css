@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} html {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+} body {
+    background: #e6e6fa;
+    font-family: 'Lato', 'Montserrat', sans-serif;
+}

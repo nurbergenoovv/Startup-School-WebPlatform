@@ -1,0 +1,148 @@
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 75px;
+    color: white;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+    transition: top 0.3s ease-in-out;
+} #navbar span.iconOfSite {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+} a.nav-links {
+    text-decoration: none;
+    color: aliceblue;
+} div.links span, div.links a {
+    margin-inline: 10px;
+    font-weight: 600;
+} #navbar button {
+    padding: 7px 40px;
+    border-radius: 19px;
+    outline: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: white;
+    background: transparent;
+    border: 2px solid white;
+    margin-left: 50px;
+} .links a.nav-links:hover {
+    color: #1da1f2;
+} .dropdown {
+    position: relative;
+    display: inline-block;
+} .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    z-index: 1;
+    border-radius: 5px;
+} .dropdown:hover .dropdown-content {
+    display: block;
+} .dropdown-content a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+} .dropdown-content a:hover {
+    background-color: #eee;
+} .firstSection {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/background/index-bg-noo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: white;
+    padding-inline: 50px 50%;
+} .firstSection strong {
+    font-size: 35px;
+    color: #50af31;
+    padding: 5px 0;
+} .firstSection h1 {
+    font-size: 44px;
+    font-weight: 700;
+    letter-spacing: 1px;
+} firstSection span {
+    font-size: 17px;
+} .secondSection {
+    width: 100%;
+} footer {
+    width: 100%;
+} .pts {
+    margin-right: 5px;
+} .shop {
+    width: 100%;
+    background-image: url('../images/background/index-bg-noo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: grid;
+    place-items: center;
+    color: white;
+    padding: 0;
+} .shopcont {
+    background: white;
+    padding: 20px;
+    border-radius: 11px;
+    min-width: 85vw;
+    height: auto;
+    min-height: 220px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    gap: 20px;
+} .shop-item {
+    padding: 20px;
+    border-radius: 11px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border: solid 2px gray;
+    width: 150px;
+    align-items: center;
+} .closer {
+    justify-content: center;
+    font-weight: 700;
+    color: red;
+    border-color: red;
+    transition: all .3s;
+}.shop-item:hover {
+    background: #eee;
+} .closer:hover {
+    justify-content: center;
+    font-weight: 900;
+    color: black;
+    border-color: black;
+    background: red;
+    font-size: 20px;
+    padding-bottom: 5%;
+} .ccc {
+    display: flex;
+} .ccc .iconOfSite {
+    margin-top: 6px;
+}
+
+
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+    margin-top: 50px;
+}
+#navbar button:hover{
+    background-color: white;
+    color: black;
+}
