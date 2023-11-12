@@ -1,9 +1,9 @@
 <?php
 
-$host = 'srv-pleskdb39.ps.kz:3306';
-$username = 'clickmek_school';
-$password = 'Aktau7292';
-$database = 'clickmek_school';
+$host = 'localhost';
+$username = 'root';
+$password = '';
+$database = 'school';
 
 
 function authStudent($id)
